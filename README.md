@@ -1,6 +1,17 @@
-# 📘 Jupyter Notebook Project Template (with venv)
+# 🤖 AI Agents Collection
 
-A starter template for data projects using Jupyter Notebooks in VS Code, with a Python virtual environment.
+A repository of intelligent AI agents for various practical applications.
+
+---
+
+## 🌟 Featured Agents
+
+### 📊 Finance Research Agent
+An advanced agent for investment analysis and financial research that:
+- Breaks down complex investment questions into detailed research plans
+- Dynamically adjusts research based on gathered information
+- Provides formatted, visual output suitable for client presentations
+- Found in: `notebooks/finance_research_agent.ipynb`
 
 ---
 
@@ -44,11 +55,12 @@ This will:
 
 ---
 
-### 4. 🧪 Use in VS Code
+### 4. 🧪 Use the Notebooks
 
-1. Open your `.ipynb` file (e.g., `notebooks/example.ipynb`)
+1. Open a notebook file (e.g., `notebooks/finance_research_agent.ipynb`)
 2. In the top-right corner, click the **kernel picker**
 3. Choose `Python (venv)` from the list
+4. Follow the instructions in the notebook to run the agent
 
 ---
 
@@ -75,8 +87,8 @@ This will:
 .
 ├── venv/                  # Virtual environment
 ├── notebooks/             # Jupyter notebooks
-│   └── example.ipynb
-├── data/                  # (Optional) datasets
+│   └── finance_research_agent.ipynb
+├── data/                  # Datasets used by agents
 ├── requirements.txt       # Dependency list
 ├── setup_env.sh           # Setup script for macOS/Linux
 └── README.md              # This file
@@ -84,4 +96,10 @@ This will:
 
 ---
 
-Happy coding! 🚀
+## 🔒 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Happy agent building! 🚀

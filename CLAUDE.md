@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Setup environment from scratch: `./setup_env.sh`
 
 ## Development Commands
-- Run notebook: `jupyter notebook notebooks/agent.ipynb`
+- Run notebook: `jupyter notebook notebooks/finance_research_agent.ipynb`
 - Run specific tests: `python -m unittest test_file.py::TestClass::test_method`
 - Lint Python code: `flake8 .`
 - Type checking: `mypy .`
