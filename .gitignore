@@ -19,3 +19,7 @@ Thumbs.db
 # Logs and environment
 *.log
 .env
+
+# Exclude Claude file
+CLAUDE.md
+**/.claude/settings.local.json
