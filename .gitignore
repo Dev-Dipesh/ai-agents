@@ -27,3 +27,8 @@ CLAUDE.md
 
 # Exclude agent-specific instruction files
 notebooks/**/*_INSTRUCTIONS.md
+
+# Exclude strategy documents
+ROADMAP.md
+**/STRATEGY_*.md
+**/PLANNING_*.md
