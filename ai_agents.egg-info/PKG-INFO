@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: ai-agents
+Version: 0.1.0
+Summary: A collection of intelligent AI agents for various practical applications
+Author: Dipesh Bhardwaj
+Keywords: ai,agents,research,finance
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: aiohappyeyeballs>=2.6.1
+Requires-Dist: aiohttp>=3.11.18
+Requires-Dist: langchain>=0.3.25
+Requires-Dist: langchain-community>=0.3.9
+Requires-Dist: langchain-core>=0.3.58
+Requires-Dist: langchain-openai>=0.2.11
+Requires-Dist: langgraph>=0.2.56
+Requires-Dist: openai>=1.77.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: matplotlib>=3.10.1
+Requires-Dist: python-dotenv>=1.1.0
+Requires-Dist: tavily-python>=0.5.0
+Requires-Dist: tiktoken>=0.9.0
+Requires-Dist: pydantic>=2.11.4
+Dynamic: author
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
