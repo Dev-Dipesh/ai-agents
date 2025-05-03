@@ -5,6 +5,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Project Overview
 This project implements a finance research agent that uses AI to conduct multi-step investment analysis. The agent breaks down complex finance questions, researches key aspects, and synthesizes findings into investment recommendations.
 
+## Git Configuration
+- Use the following author information when committing code:
+  ```
+  git config user.name "Dipesh Bhardwaj"
+  git config user.email "dipesh@example.com"
+  ```
+- Always include the author in commit messages with the format:
+  ```
+  Co-Authored-By: Dipesh Bhardwaj <dipesh@example.com>
+  ```
+- When creating PRs, ensure they are assigned to Dipesh Bhardwaj
+
 ## Environment & Setup
 - Create/activate virtual environment: `source venv/bin/activate` or `source pyenv/bin/activate`
 - Install dependencies: `pip install -r requirements.txt`
