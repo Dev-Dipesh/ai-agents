@@ -133,7 +133,6 @@ def enable_debug_logging():
     for handler in logger.handlers:
         handler.setLevel(logging.DEBUG)
     
-    logger.debug("Debug logging enabled")
     
     return logger
 

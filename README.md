@@ -428,6 +428,46 @@ The framework includes a robust caching system to improve performance and reduce
 
 ---
 
+## 🧹 Code Cleanup Utility
+
+The project includes a cleanup utility (`cleanup.py`) that helps maintain code quality by identifying and removing excessive debugging code, simplifying error handling, and detecting code duplications.
+
+### Running the Cleanup Utility
+
+#### Dry Run Mode (No Changes Applied)
+To check what would be cleaned up without actually modifying files:
+
+```bash
+python cleanup.py --dry-run
+```
+
+This will scan the codebase and report potential issues without making any changes.
+
+#### Normal Mode (Apply Changes)
+To apply the cleanup changes:
+
+```bash
+python cleanup.py
+```
+
+#### Targeting Specific Directories
+By default, the utility scans the `src` directory. You can specify a different directory:
+
+```bash
+python cleanup.py --directory path/to/dir
+```
+
+### What the Cleanup Utility Fixes
+
+- **Excessive Logging**: Removes debug-level logging statements and print calls used for debugging
+- **Error Handling**: Identifies and simplifies nested try-except blocks and redundant error handling
+- **Code Duplication**: Detects potential duplicate code blocks that could be refactored
+- **Debug Comments**: Removes comments marked as debug-only
+
+The utility provides a detailed report showing exactly what was changed, making it easy to review modifications.
+
+---
+
 ## 🚧 Development Roadmap
 
 - Add more domain-specific agents (Legal, Medical, etc.)

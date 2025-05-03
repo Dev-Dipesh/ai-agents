@@ -13,10 +13,6 @@ def get_llm_config_interactive():
         Dictionary with provider and model configuration
     """
     # Provider selection
-    print("\nSelect LLM provider:")
-    print("1. OpenAI (default)")
-    print("2. Anthropic (not fully implemented)")
-    print("3. MistralAI (not fully implemented)")
     
     provider_input = input("> ")
     
@@ -32,11 +28,6 @@ def get_llm_config_interactive():
     model = None
     
     if provider == "openai":
-        print("\nSelect OpenAI model:")
-        print("1. gpt-4o (recommended)")
-        print("2. gpt-4o-mini (faster)")
-        print("3. gpt-4-turbo")
-        print("4. gpt-3.5-turbo")
         
         model_input = input("> ")
         
@@ -50,10 +41,6 @@ def get_llm_config_interactive():
         model = model_map.get(model_input, "gpt-4o")
     
     elif provider == "anthropic":
-        print("\nSelect Anthropic model:")
-        print("1. claude-3-opus (recommended)")
-        print("2. claude-3-sonnet")
-        print("3. claude-3-haiku")
         
         model_input = input("> ")
         
@@ -66,10 +53,6 @@ def get_llm_config_interactive():
         model = model_map.get(model_input, "claude-3-opus-20240229")
     
     elif provider == "mistral":
-        print("\nSelect MistralAI model:")
-        print("1. mistral-large (recommended)")
-        print("2. mistral-medium")
-        print("3. mistral-small")
         
         model_input = input("> ")
         
@@ -86,8 +69,6 @@ def get_llm_config_interactive():
     api_key = os.environ.get(api_key_var)
     
     if not api_key:
-        print(f"\nWarning: {api_key_var} not found in environment.")
-        print(f"Provider '{provider}' might not work without valid API key.")
     
     # Return configuration
     return {
