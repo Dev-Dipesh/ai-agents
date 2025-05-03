@@ -21,6 +21,9 @@ Thumbs.db
 *.log
 .env
 
-# Exclude Claude file
+# Exclude Claude configuration files
 CLAUDE.md
 **/.claude/settings.local.json
+
+# Exclude agent-specific instruction files
+notebooks/**/*_INSTRUCTIONS.md
