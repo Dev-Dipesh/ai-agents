@@ -79,6 +79,8 @@ nest-asyncio==1.6.0
 notebook==7.4.1
 notebook_shim==0.2.4
 numpy==2.2.5
+matplotlib==3.10.1
+pandas==2.2.3
 openai==1.77.0
 orjson==3.10.18
 ormsgpack==1.9.1
